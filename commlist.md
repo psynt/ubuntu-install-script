@@ -1,4 +1,4 @@
-sudo add-apt-repository ppa:pbek/qownnotes
+
 wget -nv http://download.opensuse.org/repositories/isv:ownCloud:desktop/Ubuntu_17.04/Release.key -O Release.key
 wget https://raw.githubusercontent.com/quidsup/flashless-extras/master/flashless.sh
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
@@ -18,16 +18,13 @@ sudo apt upgrade
 
 sudo apt install g++ --install-suggests
 sudo apt install curl
-bash flashless.sh
 sudo apt install libdvd-pkg
-rm flashless.sh
 sudo apt install --install-suggests git-all
 sudo apt install git-lfs
-sudo apt install --install-suggests ibus anthy kasumi ibus-anthy ibus-gtk*
+sudo apt install --install-suggests ibus anthy kasumi ibus-anthy ibus-gtk* ibus-qt4
 sudo apt install --install-suggests anki
 sudo apt install steam slack texmaker
 sudo apt install owncloud-client
-sudo apt install qownnotes qbittorrent thunderbird
 sudo apt install ssh samba
 sudo apt install --install-suggests aptitude virtualbox virtualbox-ext-pack
 sudo apt install mtpfs mtp-tools
@@ -69,6 +66,4 @@ sdk i groovyserv
 
 
 
-
-I will implement the Actor, Board, Field, Ghost and PacMan classes for your project.
 
